@@ -59,8 +59,6 @@ a:visited:hover { text-decoration: underline; color: green; }
     border-right: solid 10px white;
 }
 
-#page ul { list-style: url(/HEADER.images/ul.png); } 
-
 #footer {
     clear: both;
     background: #204C8D url(/HEADER.images/docs-header.png);
@@ -86,7 +84,7 @@ html {
 	margin: 1.0em 0 1.0em 0;
 	padding: 0 0.7em; /* Should be the same for h{1-4} */
 	color: #fff;
-	background: #204C8D url(/HEADER.images/h1-background.png);
+	background: #204C8D;
 	border: none;
 }
 
@@ -95,7 +93,6 @@ html {
 	line-height: 1.8em;
 	margin: 1em 0 1.2em 0;
 	padding: 0 0.7em; /* Should be the same for h{1-4} */
-	background: url('/HEADER.images/h2-background.png');
 	border: none;
 	color: #072b61;
 }
@@ -110,7 +107,6 @@ html {
 	margin-bottom: 10px;
 	padding: 0em 0.3em; /* Should be the same for h{1-4} */
 	color: #072b61;
-	background: url('/HEADER.images/h2-background.png');
 }
 
 #page h3 {
